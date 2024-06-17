@@ -32,7 +32,7 @@ namespace EsercizioBackend
 
         public void description()
         {
-            Console.WriteLine("Mi chiamo " + nome + " " + cognome + "e pratico " + sport);
+            Console.WriteLine("Mi chiamo " + nome + " " + cognome + " e pratico " + sport);
         }
     }
 }

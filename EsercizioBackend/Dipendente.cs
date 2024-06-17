@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace EsercizioBackend
 {
-    internal class Animale
+    internal class Dipendente
     {
         
+        
         string nome;
-        string razza;
-        string tipo;
+        string cognome;
+        string lavoro;
+
 
 
 
@@ -20,22 +22,21 @@ namespace EsercizioBackend
             get { return nome; }
             set { nome = value; }
         }
-        public string Razza
+        public string Cognome
         {
-            get { return razza; }
-            set { razza = value; }
+            get { return cognome; }
+            set { cognome = value; }
         }
 
-        public string Tipo
+        public string Lavoro
         {
-            get { return tipo; }
-            set { tipo = value; }
+            get { return lavoro; }
+            set { lavoro = value; }
         }
 
         public void description()
         {
-            Console.WriteLine(" BAU BAU Mi chiamo " + nome + " Sono un " + razza + " e sono un " + tipo);
+            Console.WriteLine(" Ciao Piacere Mi Chiamo " + nome + " " + cognome + " e il mio Lavoro è " + lavoro);
         }
     }
 }
-
